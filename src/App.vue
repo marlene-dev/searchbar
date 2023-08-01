@@ -32,18 +32,6 @@ export default {
 </script>
 
 <style>
-.search-bar {
-  width: 300px;
-  margin: 0 auto;
-}
-
-.search-input {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #dcadcd;
-  border-radius: 5px;
-}
 
 .userData {
   margin-top: 20px;
@@ -60,25 +48,11 @@ export default {
 
 .user-name {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .user-address,
 .user-phone {
   margin-top: 5px;
-}
-
-.item-list {
-  list-style: none;
-  padding: 0;
-}
-
-.item {
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.item:last-child {
-  border-bottom: none;
 }
 </style>
